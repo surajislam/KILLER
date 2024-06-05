@@ -11,11 +11,11 @@ if os.path.exists(".env"):
     load_dotenv(".env")
 
 # -------------CONFIGS--------------------
-API_ID = int(os.getenv("API_ID", "29308061"))
+API_ID = int(os.getenv("API_ID", "22256806"))
 if not API_ID:
    print("SpamX [INFO]: You didn't fill API_ID var!")
    sys.exit()
-API_HASH = os.getenv("API_HASH", "462de3dfc98fd938ef9c6ee31a72d099")
+API_HASH = os.getenv("API_HASH", "92ab7ec36d41ae6316c5031b0f2b5749")
 if not API_HASH:
    print("SpamX [INFO]: You didn't fill API_HASH var!")
    sys.exit()
@@ -60,7 +60,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", None))
 if not OWNER_ID:
    print("SpamX [INFO]: You didn't fill OWNER_ID var!")
    sys.exit()
-SUDO_USERS = os.getenv("SUDO_USERS", "6762113050 6919199044")
+SUDO_USERS = os.getenv("SUDO_USERS", "7178932244")
 
 #Optional
 DATABASE_URL = os.getenv("DATABASE_URL", None)
